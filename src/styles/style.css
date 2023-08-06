@@ -1,0 +1,79 @@
+@import 'aclonica.css';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #4A7676; 
+    font-family: 'Aclonica';
+}
+.header{
+    background: #004747; 
+    padding: 45px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 105px;
+    margin-bottom: 42px;
+}
+.header > a{
+    color: #FFF;
+    font-size: 24px;
+}
+h1{
+    color: #000;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.homepage > section{
+    padding: 0 100px;
+    display: flex;
+    gap: 70px;
+    margin-bottom: 50px;
+}
+.homepage > section > img{
+    max-width: 744px;
+    max-height: 496px; 
+}
+
+footer{
+    padding: 30px;
+    background: #004747; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF; 
+    font-size: 20px; 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.menu > .dish{
+    margin: 0 90px 50px 90px;
+    display: flex;
+    background: #2F4B4B; 
+    gap: 120px;
+    padding: 30px 80px;
+    width: fit-content;
+}
+.menu > .dish > img{
+    max-width: 541px;
+    max-height: 398px; 
+}
+.menu > .dish > .text{
+    color: #FFF;
+    font-size: 20px;
+}
+.menu > .dish > .text > h4{
+    font-size: 32px; 
+}
+
+.contacts > p{
+    text-align: center;
+    margin-bottom: 10px;
+}
